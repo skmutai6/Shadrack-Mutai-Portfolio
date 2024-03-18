@@ -375,8 +375,34 @@ span {
 }
 
 
+/* ------------------------@Media---------------------- */
 
-
+@media (max-width: 799px) {
+    .home {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        background: gainsboro;
+    }
+    .about h2 {
+        text-align: center;
+    }
+    .about-content p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+}
 
 
 
